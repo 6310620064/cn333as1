@@ -47,7 +47,7 @@ fun GuessingGameScreen(randomNumber : Int) {
     var randomNumber by remember { mutableStateOf(randomNumber) }
     var inputNumber by remember { mutableStateOf("") }
     val input = inputNumber.toIntOrNull()
-    var hint by remember { mutableStateOf("Let's Guess") }
+    var hint by remember { mutableStateOf("Let's Play") }
     var count by remember { mutableStateOf(0) }
     var guess by remember { mutableStateOf(true) }
     
@@ -91,7 +91,7 @@ fun GuessingGameScreen(randomNumber : Int) {
                     count += 1
 
                     if (input == null) {
-                        hint = "\nLet's Play"
+                        hint = "\n Let's Play"
                     } else if (input > randomNumber) {
                         hint = "\nYour answer is Higher ! "
                     } else if (input < randomNumber) {
