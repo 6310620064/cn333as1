@@ -1,4 +1,4 @@
-# CN333_Assignment 1
+# CN333_Assignment 1 new ver. (use compose)
 
 ## เกมสุ่มตัวเลข (Number Guessing Game)
 - ผู้เล่นสามารถป้อนจำนวนเพื่อทายได้
